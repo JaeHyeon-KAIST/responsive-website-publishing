@@ -1,7 +1,10 @@
 /* Google Web Font : Montserrat */
-@import url('https://fonts.googleapis.com/css?family=:200,300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
+
 @import url('https://fonts.googleapis.com/css?family=Manrope:300,400,500,600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 /* FontAwesome CDN 4.7 */
@@ -91,4 +94,67 @@ header {
 }
 .btn-hiring:active {
     transform: scale(0.7);
+}
+
+/* ########## Section : awards winner ########## */
+.awards-inner {
+  height: 100%;
+  border: 1px solid #ddd;
+}
+.awards-inner > div {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.about-awards {
+  background-color: #1a1f24;
+  color: #fff;
+}
+.about-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+.victory-jump {
+  background-color: #fff;
+}
+.victory-jump img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.about-heading h2 {
+  margin: 0;
+  font-weight: normal;
+}
+hr.bar {
+  width: 50px;
+  height: 4px;
+  border: none;
+  background-color: crimson;
+  margin: 30px auto;
+}
+.about-heading p {
+  color: #999;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+.view-awards {
+  color: #bbb;
+  border: 1px solid #bbb;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.view-awards:hover {
+  background-color: #31c0ce;
+  color: #fff;
+  border-color: transparent;
 }
