@@ -12,7 +12,7 @@
 
 /* Reset CSS */
 * { box-sizing: border-box; }
-ul { list-style: none; }
+ul { list-style: none; padding: 0; }
 a { text-decoration: none; }
 
 /* Default CSS */
@@ -233,9 +233,6 @@ hr.bar {
 .service {
   width: 40%;
 }
-.office b {
-
-}
 .office h2 {
   color: #1db1f0;
   font-weight: 500;
@@ -263,4 +260,90 @@ hr.bar {
   color: #fff;
   font-size: 22px;
   margin: 0;
+}
+
+/* ########## Section : contact ########## */
+.contact-inner {
+  background-color: #fff;
+  height: 100%;
+  border: 1px solid #ddd;
+}
+.contact-feature {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-feature > div {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.contact-form h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+.send-box label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0;
+  margin-top: 20px;
+}
+.send-box label span {
+  color: crimson;
+  font-weight: normal;
+}
+.send-box input[type=email],
+.send-box input[type=text],
+.send-box textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  width: 100%;
+  transition: 0.5s;
+}
+.send-box input[type=email]:hover,
+.send-box input[type=text]:hover,
+.send-box textarea:hover {
+  border: 1px solid #0088cc;
+  box-shadow: 0 0 5px #0088cc;
+}
+.send-box input[type=email]:focus,
+.send-box input[type=text]:focus,
+.send-box textarea:focus
+{
+  background-color: #eee;
+}
+.send-box button {
+  background-color: #0088cc;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+.send-box button:hover {
+  background-color: #000;
+}
+.contact-info h4 {
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 20px;
+}
+.contact-info ul li {
+  line-height: 2em;
+}
+.contact-info ul li:la2st-child {
+  color: #0088cc;
+}
+.contact-info p {
+  line-height: 1.5em;
 }
