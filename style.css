@@ -139,6 +139,82 @@ header {
   font-size: 18px;
 }
 
+/* ########## Section : plan ########## */
+.plan-inner {
+  background-color: #1d1b24;
+  height: 100%;
+}
+.plan-feature {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.plan-feature > div {
+  color: #bbb;
+}
+.plan-info {
+  overflow: hidden;
+}
+.plan-info > div {
+  float: left;
+}
+.plan-heading {
+  width: 70%;
+  padding-right: 50px;
+}
+.plan-heading h2,
+.history-info h2{
+  color: #fff;
+  margin: 0;
+}
+.plan-heading p {
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-top: 0;
+}
+.plan-photo {
+  width: 30%;
+}
+.plan-photo img {
+  height: 265px;
+}
+.plan-heading hr.bar,
+.history-info hr.bar
+{
+  background-color: dodgerblue;
+  display: inline-block;
+}
+.history-slider div {
+  outline: none; /* Slick 슬라어더 드래글 할 때 나오는 아웃라인 없애기 */
+}
+.history-slider div h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.5em;
+}
+.history-slider div h4 span {
+  color: dodgerblue;
+}
+.history-slider div p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+/* Slick.js Custom CSS */
+.history-slider .slick-arrow {
+  display: none !important;
+}
+.history-slider .slick-dots li button:before {
+  color: #fff;
+  font-size: 40px;
+}
+.history-slider .slick-dots li {
+  margin: 0;
+}
+
 /* ########## Section : awards winner ########## */
 .awards-inner {
   height: 100%;
