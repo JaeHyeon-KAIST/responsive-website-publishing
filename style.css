@@ -788,7 +788,7 @@ hr.bar {
   margin: auto;
   position: relative;
 }
-.hiring-slogan p:before {
+.hiring-slogan p span:before {
   content: ',,';
   font-family: 'Overpass', sans-serif;
   font-size: 200px;
@@ -796,7 +796,7 @@ hr.bar {
   color: #ddd;
   transform: rotate(180deg);
   top: -82px;
-  left: -35px;
+  left: -5px;
 }
 .hiring-contact ul {
   display: inline-block;
