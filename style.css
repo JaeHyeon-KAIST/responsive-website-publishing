@@ -28,6 +28,8 @@ body {
 /* Entire Layout */
 .cd-section {
   height: 100vh;
+  margin-top: -60px;
+  padding-top: 60px;
 }
 .cd-section > div {
   height: 100%;
@@ -218,7 +220,7 @@ header {
   background: #0dace3 url(images/line-drawing.png) no-repeat right bottom;
   height: 100%;
 }
-.about-itmes {
+.about-items {
   width: 60%;
   color: #fff;
   position: absolute;
